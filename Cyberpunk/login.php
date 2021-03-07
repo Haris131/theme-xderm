@@ -26,9 +26,6 @@ echo '<!DOCTYPE>
 		body{
 			font-family: sans-serif;
 			background-image: url(img/background.jpg);
-			background-size: cover;
-			-webkit-background-size: cover;
-			background-repeat: no-repeat;
 		}
 
 		.header_login {
