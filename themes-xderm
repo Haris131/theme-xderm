@@ -1,0 +1,31 @@
+#!/bin/bash
+clear
+url=https://raw.githubusercontent.com/Haris131/theme-xderm/main
+ cyberpunk(){
+rm -rf /www/xderm/index.php /www/xderm/login.php /www/xderm/img/ico.png /www/xderm/img/image.png /www/xderm/img/background.jpg
+wget -O /www/xderm/img/ico.png $url/Cyberpunk/img/ico.png
+wget -O /www/xderm/img/image.png $url/Cyberpunk/img/image.png
+wget -O /www/xderm/img/background.jpg $url/Cyberpunk/img/background.jpg
+wget -O /www/xderm/index.php $url/Cyberpunk/index.php
+wget -O /www/xderm/login.php $url/Cyberpunk/login.php
+echo -e "Installed Themes Cyberpunk Success";exit
+}
+ night(){
+rm -rf /www/xderm/index.php /www/xderm/login.php /www/xderm/img/ico.png /www/xderm/img/image.png /www/xderm/img/background.jpg
+wget -O /www/xderm/img/ico.png $url/Night/img/ico.png
+wget -O /www/xderm/img/image.png $url/Night/img/image.png
+wget -O /www/xderm/img/background.jpg $url/Night/img/background.jpg
+wget -O /www/xderm/index.php $url/Night/index.php
+wget -O /www/xderm/login.php $url/Night/login.php
+echo -e "Installed Themes Night Success";exit
+}
+case $1 in
+ "cyberpunk")
+ cyberpunk
+ ;;
+ "night")
+ night
+ ;;
+esac
+echo -e "\e[38;3m themes-xderm cyberpunk\e[0m \e[34;1m(use themes cyberpunk)\e[0m"
+echo -e "\e[38;3m themes-xderm night\e[0m \e[34;1m(use themes night)\e[0m"
