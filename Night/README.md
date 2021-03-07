@@ -9,3 +9,9 @@ klau di sudah di paste.. silakan clear cache/history browser kalian..
 
 themes re-design by Agus Sriawan
 credit: ryan fauzi | xnang
+
+# Preview
+
+<img src="https://raw.githubusercontent.com/Haris131/theme-xderm/main/Night/Preview/login.jpg"/>
+
+<img src="https://raw.githubusercontent.com/Haris131/theme-xderm/main/Night/Preview/index.jpg"/>
